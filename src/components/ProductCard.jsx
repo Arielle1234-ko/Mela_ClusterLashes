@@ -24,7 +24,7 @@ export function ProductCard({ product }) {
             type="button"
             className="px-6 py-3 bg-white text-burgundy rounded-full font-medium transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
           >
-            Ajouter au panier
+            Commander
           </button>
         </div>
       </div>
@@ -33,16 +33,6 @@ export function ProductCard({ product }) {
         <p className="text-gray-600 text-sm mb-4">{product.description}</p>
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold text-burgundy">{product.price}</span>
-          <div className="flex gap-1">
-            {Array.from({ length: 5 }).map((_, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <i
-                key={index}
-                data-lucide="star"
-                className={`w-4 h-4 ${index < product.rating ? 'text-or fill-or' : 'text-or'}`}
-              ></i>
-            ))}
-          </div>
         </div>
       </div>
     </div>

@@ -358,8 +358,8 @@ export default function App({ section }) {
               </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Découvrez l&apos;art du nail design dans un cadre luxueux. Nos expertes subliment vos ongles avec des produits
-              premium et des techniques innovantes pour une beauté qui vous ressemble.
+            Un salon dédié à votre beauté et votre bien-être.
+            Des prestations professionnelles pour un résultat impeccable et durable.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
@@ -380,12 +380,12 @@ export default function App({ section }) {
 
             <div className="mt-12 flex items-center gap-8 justify-center lg:justify-start text-sm text-gray-500">
               <div className="flex items-center gap-2">
-                <i data-lucide="star" className="w-5 h-5 text-or fill-or"></i>
-                <span>4.9/5 (128 avis)</span>
+                <i data-lucide="phone" className="w-5 h-5 text-burgundy"></i>
+                <span>+225 0505466378 / +225 0595718904</span>
               </div>
               <div className="flex items-center gap-2">
                 <i data-lucide="map-pin" className="w-5 h-5 text-burgundy"></i>
-                <span>Abidjan, Côte d&apos;Ivoire</span>
+                <span>Niangon Nord Sainte Rita</span>
               </div>
             </div>
           </div>
@@ -538,7 +538,7 @@ export default function App({ section }) {
                   </div>
                   <div>
                     <h4 className="font-bold text-burgundy mb-1">Téléphone</h4>
-                    <p className="text-gray-600">+225 00 00 00 00 00</p>
+                    <p className="text-gray-600">+225 0505466378 / +225 0595718904</p>
                   </div>
                 </div>
 
@@ -658,9 +658,9 @@ export default function App({ section }) {
                     onChange={(e) => setField('service', e.target.value)}
                   >
                     <option>Extensions de Cils</option>
-                    <option>Nail Art Design</option>
-                    <option>Soins Réparateurs</option>
-                    <option>Extensions Gel</option>
+                    <option>Soins de visage</option>
+                    <option>Poses ongles Permanentes</option>
+                    <option>T Shirt Personnalisés</option>
                     <option>Autre (précisez ci-dessous)</option>
                   </select>
                 </div>
@@ -727,16 +727,16 @@ export default function App({ section }) {
                 Salon de Cils haut de gamme situé au cœur de Yopougon Niangon, Abidjan Côte d&apos;Ivoire. Nous sublimons vos cils avec passion, créativité et des produits d&apos;exception.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="instagram" className="w-5 h-5"></i>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="facebook" className="w-5 h-5"></i>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="twitter" className="w-5 h-5"></i>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="youtube" className="w-5 h-5"></i>
                 </a>
               </div>
@@ -801,10 +801,8 @@ export default function App({ section }) {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-500 text-sm">© 2025 Mela Clusterlashes (MC). Tous droits réservés.</p>
-            <p className="text-gray-500 text-sm flex items-center gap-1">
-              Fait avec <i data-lucide="heart" className="w-4 h-4 text-rose-gold fill-rose-gold"></i> à Abidjan
-            </p>
+              <p className="text-gray-500 text-sm">© 2025 Mela Clusterlashes (MC). Tous droits réservés.</p>
+              <p className="text-gray-500 text-sm">Fait par <a href="https://www.linkedin.com/in/arielle-kouassi-6a517934a/" className="text-rose-gold hover:text-white transition-colors">Arielle Kouassi</a> pour le site web de Mela Clusterlashes</p>
           </div>
         </div>
       </footer>

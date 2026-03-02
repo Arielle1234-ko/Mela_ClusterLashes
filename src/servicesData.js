@@ -3,7 +3,7 @@ export const services = [
     icon: 'eye',
     title: 'Extensions de Cils',
     slug: 'extensions-de-cils',
-    description: 'Extensions de cils parfaites pour sublimer vos regards.',
+    description: 'Extensions de cils parfaites pour sublimer vos regards. Durable sur 3 semaines à 1 mois.',
     price: 'Dès 2000F CFA',
     delay: '0s',
     images: [

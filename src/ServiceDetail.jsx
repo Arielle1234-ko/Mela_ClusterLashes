@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { services } from './servicesData.js';
 
 export default function ServiceDetail() {
   const { slug } = useParams();
+  useEffect(() => {
+    const lucide = window?.lucide;
+    if (lucide?.createIcons) {
+      lucide.createIcons();
+    }
+  }, []);
   const service = services.find((s) => s.slug === slug);
 
   const mainImage = service?.images && service.images.length > 0 ? service.images[0] : null;
@@ -94,7 +100,7 @@ export default function ServiceDetail() {
               <i data-lucide="calendar" className="w-4 h-4" />
             </Link>
             <a
-              href="tel:+2250000000000"
+              href="tel:+225 0505466378"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 border-2 border-burgundy text-burgundy rounded-full font-medium hover:bg-burgundy hover:text-white transition-all"
             >
               <i data-lucide="phone" className="w-4 h-4" />
