@@ -7,9 +7,9 @@ export const services = [
     price: 'Dès 2000F CFA',
     delay: '0s',
     images: [
-      '/dist/assets/photo6.jpg',
-      '/dist/assets/photo8.jpg',
-      '/dist/assets/photo9.jpg',
+      '//assets/photo6.jpg',
+      '//assets/photo8.jpg',
+      '//assets/photo9.jpg',
     ],
     features: [
       'Pose complète cil à cil et volume russe',
@@ -25,9 +25,9 @@ export const services = [
     price: 'Dès 2500F CFA',
     delay: '0.1s',
     images: [
-      '/dist/assets/vernis5.jpg',
-      '/dist/assets/vernis2.jpg',
-      '/dist/assets/vernis1.jpg',
+      '//assets/vernis5.jpg',
+      '//assets/vernis2.jpg',
+      '//assets/vernis1.jpg',
     ],
     features: [
       'Manucure et pédicure complètes',
@@ -43,9 +43,9 @@ export const services = [
     price: 'Dès 3500F CFA',
     delay: '0.2s',
     images: [
-      '/dist/assets/visage1.jpg',
-      '/dist/assets/visage3.jpg',
-      '/dist/assets/visage2.jpg',
+      '//assets/visage1.jpg',
+      '//assets/visage3.jpg',
+      '//assets/visage2.jpg',
     ],
     features: [
       'Nettoyage profond et gommage',
@@ -61,9 +61,9 @@ export const services = [
     price: 'Dès 5000F CFA',
     delay: '0.3s',
     images: [
-      '/dist/assets/T1.jpg',
-      '/dist/assets/T2.jpg',
-      '/dist/assets/T3.jpg',
+      '//assets/T1.jpg',
+      '//assets/T2.jpg',
+      '//assets/T3.jpg',
     ],
     features: [
       'T-shirts personnalisés pour événements',

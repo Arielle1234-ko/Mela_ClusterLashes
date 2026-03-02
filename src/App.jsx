@@ -16,7 +16,7 @@ const products = [
     price: '15000F CFA',
     rating: 5,
     delay: '0s',
-    image: 'dist/assets/photo3.jpg',
+    image: '/assets/photo3.jpg',
   },
   {
     badge: null,
@@ -26,7 +26,7 @@ const products = [
     price: '20000F CFA',
     rating: 4,
     delay: '0.1s',
-    image: 'dist/assets/photo4.jpg',
+    image: '/assets/photo4.jpg',
   },
   {
     badge: 'NOUVEAU',
@@ -36,7 +36,7 @@ const products = [
     price: '10000F CFA',
     rating: 5,
     delay: '0.2s',
-    image: 'dist/assets/photo5.jpg',
+    image: '/assets/photo5.jpg',
   },
 ];
 
@@ -45,37 +45,37 @@ const galleryItems = [
     title: 'Effet Classic',
     subtitle: 'Classique & Raffinée',
     delay: '0s',
-    image: 'dist/assets/photo6.jpg',
+    image: '/assets/photo6.jpg',
   },
   {
     title: 'Effet Volume',
     subtitle: 'Minimaliste Chic',
     delay: '0.1s',
-    image: 'dist/assets/photo7.jpg',
+    image: '/assets/photo7.jpg',
   },
   {
     title: 'Effet Hybrid',
     subtitle: 'Dégradé Parfait',
     delay: '0.2s',
-    image: 'dist/assets/photo8.jpg',
+    image: '/assets/photo8.jpg',
   },
   {
     title: 'Effet Animé',
     subtitle: 'Moderne & Audacieux',
     delay: '0.3s',
-    image: 'dist/assets/photo9.jpg',
+    image: '/assets/photo9.jpg',
   },
   {
     title: 'Effet Wetset',
     subtitle: 'Délicat & Fleuri',
     delay: '0.4s',
-    image: 'dist/assets/photo10.jpg',
+    image: '/assets/photo10.jpg',
   },
   {
     title: 'Effet Wispy',
     subtitle: 'Intense & Glamour',
     delay: '0.5s',
-    image: 'dist/assets/photo11.jpg',
+    image: '/assets/photo11.jpg',
   },
 ];
 
@@ -86,7 +86,7 @@ const testimonials = [
     name: 'Client 1',
     role: 'Cliente fidèle',
     delay: '0s',
-    image: 'dist/assets/photo12.jpg',
+    image: '/assets/photo12.jpg',
   },
   {
     text:
@@ -94,7 +94,7 @@ const testimonials = [
     name: 'Client 2',
     role: 'Influenceuse Beauté',
     delay: '0.1s',
-    image: 'dist/assets/photo12.jpg',
+    image: '/assets/photo12.jpg',
   },
   {
     text:
@@ -102,7 +102,7 @@ const testimonials = [
     name: 'Client 3',
     role: 'cliente fidèle',
     delay: '0.2s',
-    image: 'dist/assets/photo12.jpg',
+    image: '/assets/photo12.jpg',
   },
 ];
 
@@ -341,7 +341,7 @@ export default function App({ section }) {
       <section id="accueil" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-rose-pale via-white to-nude opacity-90"></div>
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('dist/assets/photo_background.jpg')] bg-cover bg-center opacity-20"></div>
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('/assets/photo_background.jpg')] bg-cover bg-center opacity-20"></div>
           <div className="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-rose-gold/20 blur-3xl"></div>
           <div className="absolute top-20 right-20 w-72 h-72 rounded-full bg-burgundy/10 blur-3xl"></div>
         </div>
@@ -393,7 +393,7 @@ export default function App({ section }) {
           <div className="relative fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl nail-shine">
               <img
-                src="dist/assets/photo_hero.jpg"
+                src="/assets/photo_hero.jpg"
                 alt="Cils Art Élégant"
                 className="w-full h-[600px] object-cover"
               />
