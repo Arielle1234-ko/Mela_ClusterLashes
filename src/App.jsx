@@ -48,10 +48,22 @@ const galleryItems = [
     image: '/assets/photo6.jpg',
   },
   {
-    title: 'Effet Volume',
-    subtitle: 'Minimaliste Chic',
+    title: 'Soin de visage',
+    subtitle: 'soin de visage',
     delay: '0.1s',
-    image: '/assets/photo7.jpg',
+    image: '/assets/visage1.jpg',
+  },
+  {
+    title: 'T-Shirt personnalisé',
+    subtitle: 'Moderne & Audacieux',
+    delay: '0.3s',
+    image: '/assets/T2.jpg',
+  },
+  {
+    title: 'Soin de visage Homme',
+    subtitle: 'soin de visage homme',
+    delay: '0.4s',
+    image: '/assets/visage2.jpg',
   },
   {
     title: 'Effet Hybrid',
@@ -60,22 +72,10 @@ const galleryItems = [
     image: '/assets/photo8.jpg',
   },
   {
-    title: 'Effet Animé',
-    subtitle: 'Moderne & Audacieux',
-    delay: '0.3s',
-    image: '/assets/photo9.jpg',
-  },
-  {
-    title: 'Effet Wetset',
-    subtitle: 'Délicat & Fleuri',
-    delay: '0.4s',
-    image: '/assets/photo10.jpg',
-  },
-  {
-    title: 'Effet Wispy',
+    title: 'Ongles Permanentes',
     subtitle: 'Intense & Glamour',
     delay: '0.5s',
-    image: '/assets/photo11.jpg',
+    image: '/assets/vernis2.jpg',
   },
 ];
 
