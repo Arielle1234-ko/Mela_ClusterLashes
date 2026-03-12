@@ -14,7 +14,7 @@ export default function ServiceDetail() {
 
   const mainImage = service?.images && service.images.length > 0 ? service.images[0] : null;
   const otherImages =
-    service?.images && service.images.length > 1 ? service.images.slice(1, 3) : [];
+    service?.images && service.images.length > 1 ? service.images.slice(1, 6) : [];
 
   if (!service) {
     return (
@@ -100,7 +100,7 @@ export default function ServiceDetail() {
               <i data-lucide="calendar" className="w-4 h-4" />
             </Link>
             <a
-              href="tel:+225 0505466378"
+              href="tel:+2250000000000"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 border-2 border-burgundy text-burgundy rounded-full font-medium hover:bg-burgundy hover:text-white transition-all"
             >
               <i data-lucide="phone" className="w-4 h-4" />

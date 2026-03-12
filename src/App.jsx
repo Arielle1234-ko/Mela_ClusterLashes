@@ -48,22 +48,10 @@ const galleryItems = [
     image: '/assets/photo6.jpg',
   },
   {
-    title: 'Soin de visage',
-    subtitle: 'soin de visage',
+    title: 'Effet Volume',
+    subtitle: 'Minimaliste Chic',
     delay: '0.1s',
-    image: '/assets/visage1.jpg',
-  },
-  {
-    title: 'T-Shirt personnalisé',
-    subtitle: 'Moderne & Audacieux',
-    delay: '0.3s',
-    image: '/assets/T2.jpg',
-  },
-  {
-    title: 'Soin de visage Homme',
-    subtitle: 'soin de visage homme',
-    delay: '0.4s',
-    image: '/assets/visage2.jpg',
+    image: '/assets/photo7.jpg',
   },
   {
     title: 'Effet Hybrid',
@@ -72,10 +60,22 @@ const galleryItems = [
     image: '/assets/photo8.jpg',
   },
   {
-    title: 'Ongles Permanentes',
+    title: 'Effet Animé',
+    subtitle: 'Moderne & Audacieux',
+    delay: '0.3s',
+    image: '/assets/photo9.jpg',
+  },
+  {
+    title: 'Effet Wetset',
+    subtitle: 'Délicat & Fleuri',
+    delay: '0.4s',
+    image: '/assets/photo10.jpg',
+  },
+  {
+    title: 'Effet Wispy',
     subtitle: 'Intense & Glamour',
     delay: '0.5s',
-    image: '/assets/vernis2.jpg',
+    image: '/assets/photo11.jpg',
   },
 ];
 
@@ -658,9 +658,9 @@ export default function App({ section }) {
                     onChange={(e) => setField('service', e.target.value)}
                   >
                     <option>Extensions de Cils</option>
-                    <option>Soins de visage</option>
-                    <option>Poses ongles Permanentes</option>
-                    <option>T Shirt Personnalisés</option>
+                    <option>Nail Art Design</option>
+                    <option>Soins Réparateurs</option>
+                    <option>Extensions Gel</option>
                     <option>Autre (précisez ci-dessous)</option>
                   </select>
                 </div>
@@ -727,16 +727,16 @@ export default function App({ section }) {
                 Salon de Cils haut de gamme situé au cœur de Yopougon Niangon, Abidjan Côte d&apos;Ivoire. Nous sublimons vos cils avec passion, créativité et des produits d&apos;exception.
               </p>
               <div className="flex gap-4">
-                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="instagram" className="w-5 h-5"></i>
                 </a>
-                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="facebook" className="w-5 h-5"></i>
                 </a>
-                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="twitter" className="w-5 h-5"></i>
                 </a>
-                <a href="https://www.tiktok.com/@triphene.pamela0" className="text-gray-400 hover:text-rose-gold transition-colors">
+                <a href="#" className="text-gray-400 hover:text-rose-gold transition-colors">
                   <i data-lucide="youtube" className="w-5 h-5"></i>
                 </a>
               </div>
@@ -801,8 +801,10 @@ export default function App({ section }) {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-gray-500 text-sm">© 2025 Mela Clusterlashes (MC). Tous droits réservés.</p>
-              <p className="text-gray-500 text-sm">Fait par <a href="https://www.linkedin.com/in/arielle-kouassi-6a517934a/" className="text-rose-gold hover:text-white transition-colors">Arielle Kouassi</a> pour le site web de Mela Clusterlashes</p>
+            <p className="text-gray-500 text-sm">© 2025 Mela Clusterlashes (MC). Tous droits réservés.</p>
+            {/* <p className="text-gray-500 text-sm flex items-center gap-1">
+              Fait avec <i data-lucide="heart" className="w-4 h-4 text-rose-gold fill-rose-gold"></i> à Abidjan
+            </p> */}
           </div>
         </div>
       </footer>

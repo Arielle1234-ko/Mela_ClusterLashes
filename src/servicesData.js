@@ -10,6 +10,8 @@ export const services = [
       '/assets/photo6.jpg',
       '/assets/photo8.jpg',
       '/assets/photo9.jpg',
+      '/assets/photo10.jpg',
+      '/assets/photo11.jpg',
     ],
     features: [
       'Pose complète cil à cil et volume russe',
@@ -28,6 +30,8 @@ export const services = [
       '/assets/vernis5.jpg',
       '/assets/vernis2.jpg',
       '/assets/vernis1.jpg',
+      '/assets/vernis3.jpg',
+      '/assets/vernis4.jpg',
     ],
     features: [
       'Manucure et pédicure complètes',
